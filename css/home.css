@@ -124,6 +124,7 @@
    .sub_title{
     font-size: var(--bigger-font-size);
     width: 80%;
+    margin-top: 10px;
     margin-left: 10px;
    }
 
@@ -461,6 +462,20 @@
        background-color: var(--container-color);
    }
 
+   .sub_bg{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foodiesfeed.com%2F&psig=AOvVaw2WlLNWMOPEVZu0a-zFyrT-&ust=1710693896196000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCX99ed-YQDFQAAAAAdAAAAABAE)
+   }
+
+   .sub_title{
+   
+   }
+   .subtitle_img{
+    float: right;
+    border-radius: 20px;
+    width: 3000px;
+    height: 300px;
+   }
+
    .menu-one .menu__container {
        grid-template-columns: repeat(3, 1fr);
        align-items: flex-start;
@@ -507,6 +522,11 @@
    .menu__img {
        z-index: 10;
        position: relative;
+   }
+
+   .menu_image{
+    border-radius: 20px!important;
+    width: 200px!important;
    }
 
    .menu__title {
@@ -1468,6 +1488,10 @@
    @media screen and (max-width: 450px) {
        .about__top {
            inset: 1rem;
+       }
+
+       .d___none{
+        display: none;
        }
 
        .about__hover {
